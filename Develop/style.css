@@ -118,6 +118,26 @@ button[disabled] {
   overflow: hidden;
 }
 
+#password-length {
+  /* -webkit-appearance: none; */
+  /* -moz-appearance: none; */
+  /* appearance: none; */
+  /* border: none; */
+  width: 100%;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px dashed #c0c7cf;
+  border-radius: 6px;
+  resize: none;
+  overflow: hidden;
+}
+
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
